@@ -1,14 +1,10 @@
 # Open-Media-Vault-One-Script-Install
 ## Description
-This repo was created to automate pulling and running the Kasm Worspace docker container(s) / application. It is already pretty simple, but now its one (very basic) shell script. You can even just copy and paste the script contents into a file on your Linux host and run it without pulling the repo.
+This repo was created to automate downloading and installing Open Media Vault. It is already pretty simple, but now its one (very basic) shell script. You can even just copy and paste the script contents into a file on your Linux host and run it without pulling the repo.
 
 This can be serup on a local device like a Raspberry Pi or VM, or using a VM in AWS, GCP, Azure, Linode, etc.
 
-Kasm Workspace is an application which utilises Docker containers for it's services. The workspace allows you to launch on-demand, containerised applications through any device's web browser. The applications are launched when needed and also terminated, leaving no trace. 
-It comes preloaded with applications such as Gimp, Sublime Text, Tor, FireFox, Doom (game), etc. More are able to be added at your descretion.
-
-By default, this is the "consumer" version which allows use of pretty much all features bar web filtering and parental controls. 
-Also by default, applications / containers have a lifespan of 60 minutes and are autoatically terminated after this time saving resources.
+Open Media Vault is an application which bundles a few features enabling you to setup your own media / file server and even host docker containers. You *could* setup SAMBA / CIFS and DLNA individually, but using OMV enables management of the software in a GUI, plus some other great features.
 
 <img src="" alt="" width="600"/>
 
@@ -28,7 +24,13 @@ Also by default, applications / containers have a lifespan of 60 minutes and are
 7. Enter the IP address into a web browser, i.e. `127.0.1.1`
 8. The credentials are: username: `admin` password: `openmediavault`
 ## Further Setup
-### ???
+### Change Admin Password
+1. Workin' on it
+### Add External Storage
+1. Workin' on it
+### Create File Shares
+1. Workin' on it
+### Enable DLNA
 1. Workin' on it
 ## Notes
 Most of this is already documented, I'm writing just as a personal project so I can replicate and (hopefully) help others.
