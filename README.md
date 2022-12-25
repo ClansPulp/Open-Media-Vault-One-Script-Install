@@ -10,7 +10,6 @@ Open Media Vault is an application which bundles a few features enabling you to 
 
 ## Requirements
 1. Linux VM, machine, Raspberry Pi, etc
-2. Device must have at least 4GB memory (any less and launching bigger applications in the workspace **WILL** fail)
 3. Network connectivity
 4. Assign the Linux host a static IP address
 5. A device to access the GUI from (if using Linux device headless)
